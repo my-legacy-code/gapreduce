@@ -31,6 +31,7 @@ steps:
       branch:
         - master
       event:
+        - push
         - pull_request
 volumes:
   - name: docker
